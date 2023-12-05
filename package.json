@@ -1,7 +1,7 @@
 {
   "name": "tailwind-mask",
   "version": "1.0.0",
-  "description": "If you want to showcase your text in a circular layout, give this Astro component a try.",
+  "description": "A plugin for TailwindCSS that allows to use CSS mask properties.",
   "keywords": [
     "tailwind",
     "tailwindcss",
