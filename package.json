@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-mask",
+  "version": "1.0.0",
+  "description": "If you want to showcase your text in a circular layout, give this Astro component a try.",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "css",
+    "mask",
+    "image"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/LoStis-World/tailwind-mask#readme",
+  "bugs": {
+    "url": "https://github.com/LoStis-World/tailwind-mask/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoStis-World/tailwind-mask.git"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LoSti's World",
+  "license": "MIT"
+}
