@@ -54,9 +54,9 @@ module.exports = {
       mask: {
         image: {
           avatar: 'url(IMAGE-PATH)',
-        }
-        size: {}
-        repeat: {}
+        },
+        size: {},
+        repeat: {},
         //...
       }
     }
