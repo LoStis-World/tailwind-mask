@@ -1,7 +1,7 @@
 {
   "name": "@lostisworld/tailwind-mask",
   "version": "1.0.0",
-  "description": "A plugin for TailwindCSS that allows to use CSS mask properties.",
+  "description": "A Tailwind CSS plugin that provides utilities for working with mask properties, allowing you to easily apply masking effects to your elements.",
   "keywords": [
     "tailwind",
     "tailwindcss",
