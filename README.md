@@ -1,15 +1,9 @@
 # Tailwind CSS Mask Plugin
 A Tailwind CSS plugin that provides utilities for working with mask properties, allowing you to easily apply masking effects to your elements.
 
-### Try it on the [TailwindCSS Playground](https://play.tailwindcss.com/sRf6nKJ5Qw)
+Try it on the [TailwindCSS Playground](https://play.tailwindcss.com/sRf6nKJ5Qw)
 
 
-
-
-
-# Tailwind CSS Mask Plugin
-
-A Tailwind CSS plugin that extends Tailwind CSS with utilities for masking properties, enabling easy application of masking effects to HTML elements.
 
 ## Installation
 
