@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-mask",
+  "name": "@lostisworld/tailwind-mask",
   "version": "1.0.0",
   "description": "A plugin for TailwindCSS that allows to use CSS mask properties.",
   "keywords": [
@@ -18,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/LoStis-World/tailwind-mask.git"
   },
-  "peerDependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.3.2"
   },
   "scripts": {
