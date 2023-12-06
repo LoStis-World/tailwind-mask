@@ -50,6 +50,8 @@ You can also use Tailwind CSS gradient classes for masking image properties. The
 ```
 Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient color classes.
 
+**Browser Compatibility:** [MDN Documentation for `mask-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image#browser_compatibility)
+
 ### `mask-size-*`
 **Possible values:** `cover`, `contain`, `100`, `50`, `space`, `auto`
 
@@ -58,6 +60,8 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-size#browser_compatibility)
+
 
 ### `mask-repeat-*`
 **Possible values:** `no-repeat`, `repeat`, `repeat-x`, `repeat-y`, `space`, `round`
@@ -67,6 +71,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-repeat`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-repeat#browser_compatibility)
 
 ### `mask-position-*`
 
@@ -75,6 +80,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-position#browser_compatibility)
 
 ### `mask-origin-*`
 **Possible values:** `border-box`, `content-box`, `padding-box`, `fill-box`, `stroke-cox`, `view-box`
@@ -84,6 +90,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-origin`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-origin#browser_compatibility)
 
 ### `mask-clip-*`
 **Possible values:** `border-box`, `content-box`, `padding-box`, `fill-box`, `stroke-cox`, `view-box`
@@ -93,6 +100,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-clip`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-clip#browser_compatibility)
 
 ### `mask-type-*`
 **Possible values:** `luminance`, `alpha`
@@ -102,6 +110,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-type#browser_compatibility)
 
 ### `mask-composite-*`
 **Possible values:** `add`, `substract`, `intersect`, `exclude`
@@ -111,6 +120,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-composite`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-composite#browser_compatibility)
 
 ### `mask-mode-*`
 **Possible values:** `luminance`, `alpha`, `match-source`
@@ -120,6 +130,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
   <!-- Your content here -->
 </div>
 ```
+**Browser Compatibility:** [MDN Documentation for `mask-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-mode#browser_compatibility)
 
 ### `mask-*-[customValue]`
 
@@ -168,6 +179,8 @@ module.exports = {
   },
 };
 ```
+
+### **Use Autoprefixer and remember to check the most up-to-date information on browser compatibility.**
 
 ## License
 
