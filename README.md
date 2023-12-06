@@ -12,6 +12,7 @@ Install the plugin via npm:
 ```bash
 npm install @lostisworld/tailwind-mask
 ```
+Install the plugin via pnpm:
 ```bash
 pnpm add @lostisworld/tailwind-mask
 ```
