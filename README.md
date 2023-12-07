@@ -76,6 +76,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
 **Browser Compatibility:** [MDN Documentation for `mask-repeat`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-repeat#browser_compatibility)
 
 ### `mask-position-*`
+**Possible values:** `top`, `left`, `right`, `center`, `bottom`, `center-top`, `center-bottom`, `center-left`, `center-right`   
 
 ```html
 <div class="mask-position-center">
