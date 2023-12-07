@@ -3,7 +3,7 @@
 
 A Tailwind CSS plugin that provides utilities for working with mask properties, allowing you to easily apply masking effects to your elements.
 
-Try it on the [TailwindCSS Playground](https://play.tailwindcss.com/2hnQr5hEUj)
+Try it on the [TailwindCSS Playground](https://play.tailwindcss.com/N7PXpaNLh8)
 
 
 
