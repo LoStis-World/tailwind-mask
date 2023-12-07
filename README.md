@@ -146,21 +146,6 @@ For enhanced customization, users can incorporate dynamic values directly within
 </div>
 ```
 
-## Certainly! Here are the examples using your Tailwind CSS mask plugin classes:
-```html
-<figure class="bg-blue-500 rounded-lg overflow-hidden">
-    <img src="/yourImagePath" alt="" class="h-96 from-black to-transparent to-90% mask-image-gradient-to-b" />
-</figure>
-```
-
-![](./images/image-gradient.jpg)
-
-```html
-<img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?q=80&w=2536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="h-96 w-96 object-cover mask-image-[url(shapePath.svg)]" />
-```
-
-![](./images/image-shape.jpg)
-
 ## Customization
 Customize the default values or add your own variations for each property in the `theme` section of your Tailwind CSS configuration file:
 For custom values, it's essential to encapsulate them within a `mask: {}` object. Within this object, you can define specific properties such as `size`, `repeat`, `position`, `clip`, `type`, `origin`, `mode`, and `composite`. This structure ensures clarity and allows you to tailor each property according to your preferences.
@@ -182,6 +167,24 @@ module.exports = {
   },
 };
 ```
+
+## Certainly! Here are the examples using your Tailwind CSS mask plugin classes:
+```html
+<figure class="bg-blue-500 rounded-lg overflow-hidden">
+    <img src="/yourImagePath" alt="" class="h-96 from-black to-transparent to-90% mask-image-gradient-to-b" />
+</figure>
+```
+
+![](./images/image-gradient.jpg)
+
+```html
+<img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?q=80&w=2536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="h-96 w-96 object-cover mask-image-[url(shapePath.svg)]" />
+```
+
+![](./images/image-shape.jpg)
+
+[Mask with animation](https://codepen.io/LoSti/pen/qBggqbx)
+
 
 ### **Use Autoprefixer and remember to check the most up-to-date information on browser compatibility.**
 
