@@ -3,7 +3,7 @@
 
 A Tailwind CSS plugin that provides utilities for working with mask properties, allowing you to easily apply masking effects to your elements.
 
-Try it on the [TailwindCSS Playground](https://play.tailwindcss.com/N7PXpaNLh8)
+Try it on the [TailwindCSS Playground](https://play.tailwindcss.com/oTBggTIH2m)
 
 
 
@@ -41,7 +41,7 @@ module.exports = {
 
 
 ### `mask-image-*`
-**Possible values:** `gradient-to-t`, `gradient-to-tr`, `gradient-to-tl`, `gradient-to-r`, `gradient-to-b`, `gradient-to-br`, `gradient-to-bl`, `gradient-to-l`
+**Possible values:** `gradient-to-t`, `gradient-to-tr`, `gradient-to-tl`, `gradient-to-r`, `gradient-to-b`, `gradient-to-br`, `gradient-to-bl`, `gradient-to-l`, `radial-at-c`, `radial-at-t`, `radial-at-tr`, `radial-at-r`, `radial-at-br`, `radial-at-b`, `radial-at-bl`, `radial-at-l`, `radial-at-tl`
 
 You can also use Tailwind CSS gradient classes for masking image properties. The following example demonstrates how to use the default Tailwind gradient classes:
 
@@ -55,7 +55,7 @@ Here, `from-transparent`, `to-black` and `to-90%` are standard Tailwind gradient
 **Browser Compatibility:** [MDN Documentation for `mask-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/mask-image#browser_compatibility)
 
 ### `mask-size-*`
-**Possible values:** `cover`, `contain`, `100`, `50`, `space`, `auto`
+**Possible values:** `cover`, `contain`, `px`, `0.5`, `1`, `1.5`, `2`, `2.5`, `3`, `3.5`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `14`, `16`, `20`, `24`, `28`, `32`, `36`, `40`, `44`, `48`, `52`, `56`, `60`, `64`, `72`, `80`, `96`, `1/2`, `1/3`, `2/3`, `1/4`, `1/5`, `full`, `space`, `auto`
 
 ```html
 <div class="mask-size-auto">
@@ -183,8 +183,9 @@ module.exports = {
 
 ![](./images/image-shape.jpg)
 
-[Mask with animation](https://codepen.io/LoSti/pen/qBggqbx)
+[Using CSS Mask with animation](https://codepen.io/LoSti/pen/qBggqbx)
 
+![](./images/mask-mouse-tracker.jpg)
 
 ### **Use Autoprefixer and remember to check the most up-to-date information on browser compatibility.**
 
