@@ -1,5 +1,5 @@
 # Tailwind CSS Mask Plugin
-![](./images/mask-header.jpg)
+![](./images/plugin-header-github.jpg)
 
 A Tailwind CSS plugin that provides utilities for working with mask properties, allowing you to easily apply masking effects to your elements.
 
