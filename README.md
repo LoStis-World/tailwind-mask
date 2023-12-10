@@ -183,7 +183,7 @@ module.exports = {
 
 ![](./images/image-shape.jpg)
 
-[Using CSS Mask with animation](https://codepen.io/LoSti/pen/qBggqbx)
+[Using CSS Mask with animation](https://www.sveltelab.dev/efkf16p9hhut2vk?files=.%2Fsrc%2Froutes%2F%2Bpage.svelte)
 
 ![](./images/mask-mouse-tracker.jpg)
 
